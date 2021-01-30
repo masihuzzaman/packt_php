@@ -17,4 +17,14 @@ echo '<br>';
 for ($index = 1; $index <= 10; $index++) {
     echo "$index \n";
 }
+//use for loop with break and if.
+echo '<br>';
+$num = 1;
+for (;;) {
+    if ($num > 10) {
+        break;
+    }
+    echo "$num \n";
+    $num++;
+}
 ?>
