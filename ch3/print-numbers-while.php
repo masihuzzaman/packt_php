@@ -12,4 +12,9 @@ do {
      echo $count . " ";
      $count++;
 } while ($count <= 10);
+// use for loop to print numbers upto 10.
+echo '<br>';
+for ($index = 1; $index <= 10; $index++) {
+    echo "$index \n";
+}
 ?>
