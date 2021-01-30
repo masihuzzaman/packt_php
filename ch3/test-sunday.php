@@ -13,6 +13,13 @@ if ("Sunday" === date("l")) {
 }
 
 echo '<br>';
-$msg = ("Sunday" === date("l"))? "Get rest" : "Get ready and go to the office";
+//$msg = ("Sunday" === date("l"))? "Get rest" : "Get ready and go to the office";
+$msg = 0;
 echo $msg;
+echo '<br>';
+var_dump($msg);
+echo '<br>';
+echo ($msg) ? :"Get ready and go to the office";
+//equivalent to
+//echo ($msg) ? $msg : "Get ready and go to the office";
 ?>
