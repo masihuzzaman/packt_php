@@ -5,4 +5,11 @@ while ($number <= 10) {
     echo $number . " ";
     $number++;
 }
+// use do-while to print numbers upto 10.
+echo '<br>';
+$count = 1;
+do {
+     echo $count . " ";
+     $count++;
+} while ($count <= 10);
 ?>
