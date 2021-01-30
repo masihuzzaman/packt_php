@@ -11,4 +11,8 @@ if ("Sunday" === date("l")) {
 } else {
     echo "Get ready, squeeze your breakfast and run to office.";
 }
+
+echo '<br>';
+$msg = ("Sunday" === date("l"))? "Get rest" : "Get ready and go to the office";
+echo $msg;
 ?>
