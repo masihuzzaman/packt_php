@@ -9,4 +9,6 @@ class Dog {
 $sparky = new Dog();
 // Here's where the magic happens, we can now call this
 $sparky();
+echo '<br>';
+echo is_callable($sparky);
 ?>
